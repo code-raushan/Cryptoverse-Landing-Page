@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar{
+    display: flex;
+    
+    align-items: center;
+    padding: 10px 30px;
+    background-color: #000000;
+    color: white;
+    gap: 60px;
+    font-family: Poppins;
+
+}
+.list{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style-type: none;
+}
+.list-item:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+
+.line{
+        display: inline-block;
+        border-left: 1px solid #ccc;
+        height: 50px;
+}
+.nav-btn{
+    margin-left: auto;
+}
+.button-small{
+    background-color: #BA0CC5;
+    color: white;
+    padding: 7px 20px;
+    border-radius: 8px;
+    font-family: Poppins;
+}
+.button-small:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+
+.hero{
+    background: url(./assets/bg.png);
+    background-position: center;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(100vh - 70px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.hero-heading{
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 3em;
+    color: white;
+    margin-top: -100px;
+    margin-right: 400px;
+    margin-left: 400px;
+}
+.hero-description{
+    margin-top: -20px;
+    color: white;
+    font-family: Poppins;
+    font-size: 120%;
+    font-weight: 500;
+
+}
+.button-large{
+    font-size: 1em;
+    font-family: Poppins;
+    font-weight: 500;
+    color: white;
+    background-color: #BA0CC5;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 10px;
+}
+.button-large:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
