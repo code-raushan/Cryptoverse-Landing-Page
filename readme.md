@@ -18,5 +18,6 @@
 
 Below is the link and the view of the page👇👇
 <br>
+[crypto-earth](https://crypto-earth.netlify.app/)
 
 ![cryptoverse](./project5css.png)
